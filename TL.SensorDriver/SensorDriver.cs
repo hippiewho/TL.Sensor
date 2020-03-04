@@ -31,6 +31,7 @@ namespace TL.SensorDriver
                     controller.Dispose();
                 };
 
+
                 PinValue oldValue = controller.Read(inputPin);
                 while (true)
                 {
